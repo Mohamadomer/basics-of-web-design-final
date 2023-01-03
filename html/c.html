@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Programlama</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Programlama</a>
+        <nav class="navigation">
+            <a href="#Bilgiler">Bilgiler</a>
+           
+        </nav>
+    </header>
+
+
+    <section class="main">
+        <div>
+            <h2><br><span>Programlama</span></h2>
+            <h3></h3>
+            <a href="#Bilgiler" class="main-btn">C DiLi</a>
+            <div class="social-icons">
+                <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="cards" id="Bilgiler">
+        <h2 class="title">C dili  nedir?</h2>
+        <img src="imegs/c9.png" alt=""
+        width="1100">
+        <p>
+            <strong>C Dili Nedir?</strong><br>
+            AT&T Bell laboratuvarında geliştirilen dil, Ken Thompson ve Dennis Ritchie tarafından UNIX İşletim Sistemi' ni geliştirebilmek amacıyla B dilinden türetilmiş yapısal bir programlama dilidir.</p><br>
+
+ <p> C programlama dili, mikrodenetleyicilerin programlamasında, masaüstü programlarının geliştirilmesinde, işletim sistemi üretilmesinde, gömülü sistemlerde ve aklınıza gelebilecek hemen her yerde kullanılabilen bir dildir. 
+Makine diline yakın olması ve düşük seviyeli bir dile göre daha kolay  olması sebebiyle ilk başta öğrenilmesi diğer programlama dillerine geçerken büyük kolaylık sağlamaktadır.
+ Düşük seviye dil tanımı negatif yönlerinin fazla olduğunu çağrıştırmamalıdır. <br> 
+Düşük seviyeli tanımı makine diline yani 1 ve 0'lara dönüştürmek, daha doğrusu bilgisayarın anlayacağı dile daha yakın olması diyebiliriz.
+ Bu konuda biraz daha detay vermek gerekiyor.
+        </p><br>
+        <strong>Düşük seviyeli programlama dili</strong>
+        <p>Bİlgisayarın ortaya çıktığı sürelerde Makine ve Assembly dilleri kullanılırdı. Bunlar ikili sayı sistemine göre kodlanmak zorunda olduğu için yazılan programda her şeyi detaylı açıklamak gerekir.
+             Kullanımı zor olan bu diller düşük seviyeli diller olarak adlandırılır.</p><br>
+             <strong>Yüksek seviyeli programlama dili</strong> <br>
+             <p>Bu dillerin öğrenilmesi ve yazılması daha kolaydır.
+                 Bu dillerde yazılan programlar hem zamandan kazandırır hem de daha iyi sonuçlar almanızı sağlar.</p> <br>
+                 <strong>Çok yüksek seviyeli programlama dili</strong> <br>
+                 <p>Bu diller kullanıcıların bilgisayara ne yapılacağını ifade etmesine olanak vermesidir.
+
+                    C programlama dili düşük seviyeli dillere göre daha anlaşılır, yüksek seviyelilere göre daha esnek bir yapısı olduğu için orta seviyeli diller arasında yer alır.
+                     Bu özelliği sayesinde her alanda kullanılabilir. Lakin programlar donanımlar hesaba katılarak yazılmalıdır.
+                     Çünkü daha az fonksiyon ve kütüphane barındırmaktadır.</p> <br>
+                     <img src="imegs/c1.jpg" alt=""> <br> 
+                     <strong>C Dilinde Programlama Kavramları</strong> <br>
+                     <p>
+                        <ul>
+                            <li>Fonksiyon: Fonksiyon, program çalışırken bilgisayarın yapması gereken işleri temsil eden kod bloğudur.
+                                 Programımız çeşitli fonksiyonları tanımlar ve fonksiyonları diğer fonksiyonların içerisinde çalıştırabilir.
+                                 Fonksiyonlar birbirleri ile ve kütüphanelerle iletişim halinde çalışırlar.</li><br>
+                            <li>Değişkenler: Bir program çalıştırıldığında veya çalıştırılmadan önce, fonksiyon içerisinde kullanılacak olan değerleri ve
+                                 programın çalışması sonucu ortaya çıkacak olan değerleri belli bir değişkene atamak programcıya esneklik ve kolaylık sağlar.</li><br>
+                            <li>Veri Türleri: Program çalıştırıldığında verileri bellekte saklamak ve bu verileri üzerinde işlem yapabilmek için C programlama dilinde tanımlı belli veri türleri vardır. C dilindeki her veri türü,
+                                 ikili bit veya bayt olarak ölçülen belirli bir boyuta ve bitlerin neyi temsil ettiği hakkında kurallar kümesine sahiptir. </li><br>
+                            <li>İşlemler: C dilinde sayı dizileri üzerinde bazı aritmetik işlemler gerçekleştirilebilir. Bu aritmetik işlemler karakter dizileri üzerinden de yapılabilir.
+                                 Bu gibi işlemler için C dili belli başlı kütüphanelere ve veri türlerine sahiptir.</li><br>
+                            <li>Döngüler: Bir programcının yapmak isteyeceği en temel işlerden biri, program çalışırken ortaya çıkan belirli koşullara bağlı olarak bir eylemi birkaç kez tekrarlamaktır. Verilen koşullara göre tekrarlamak için tasarlanmış bir kod bloğuna döngü adı verilir.
+                                 C dilinde döngüler şu ifadelerle gerçekleştirilir: “While”, “Do-While”, “For”, “If”,  “Then”, “Else”, “Switch-Case”…</li><br>
+                            <li>Veri Yapıları: Programlamacılar, işlemek için çok fazla veriye sahipse ve bu verileri sıralamaları veya arayıp kullanmaları gerekiyorsa genelde bir tür veri yapısına ihtiyaç duyarlar. Bir veri yapısı, aynı veri tipinde birkaç veri öbeğini temsil etmenin yapılandırılmış bir aracıdır.
+                                 En yaygın veri yapısı, belirli bir büyüklüğün yalnızca dizinlenmiş bir liste içerisinde kullanılmasını sağlayan “dizi”lerdir.</li><br>
+                            <li>Önişlemci İşlemleri: Bazı durumlarda derleyici üzerinde hazırlanan kodu çalıştırmadan önce, kodla alakalı bazı işlemler hakkında talimatlar vermek istenebilir. Önişlemci işlemleri de sabit değerler üzerinde çalışarak verilen komutları yerine getirmeyi amaçlar.
+                                 Bunu yaparken C kütüphaneleri üzerinden elde ettiği kodları kullanır.</li><br>
+                                 <strong>C Programlama Dili İle Neler Yapılabilir?</strong><br>
+                                 <ol type="1">
+                                    <li>Donanım geliştirilebilir:  Bildiğiniz üzere driverlar (Sürücüler) sistem üzerinde tam yetkiye sahip, ring 0 denilen sistemin merkezinde çalışan sys uzantılı dosyalardır.
+                                         Bu sayede donanımın tüm gereksinimlerini kodlayabilirsiniz.</li><br>
+                                    <li> Grafik ve oyun geliştirilebilir:
+                                        C dili satranç, zıplayan top, okçuluk gibi oyunların yanı sıra yeni çıkan oyunların grafiklerinin geliştirilmesinde de kullanılır.</li><br>
+                                    <li> Gömülü sistemler kodlanabilir:
+                                         Akla gelen her alanda, makinenin olduğu her yerde savunma sanayi, otomotiv sektörü, beyaz eşya sektörü vb. C dilini kullanmaktadır. </li><br>
+                                    <li> Robot kodlanabilir:
+                                        Arduino, Raspberry Pi gibi mikrodenetleyici kartlarını kullanarak gerekli programlama bilgisiyle istenilen robot yapılabilir.</li><br>
+                                    <li> İşletim Sistemi oluşturulabilir:
+                                         Unix-Çekirdeği, Microsoft Windows programları ,
+                                         işletim sistemi uygulamaları ve Android işletim sisteminin büyük bir bölümünün C ile yazılmaktadır.</li><br>
+                                    <li> Bir programlama dili yazılabilir:
+                                        C# , Java , Limbo , JavaScript , Perl , UNIX’in C Kabuğu , PHP ve Python , değişken kapasitede C’yi kullanır: Örneğin Python’da C standart kütüphaneler oluşturmak için kullanılırken, C++, Perl ve PHP gibi diğerleri C temelli sözdizimi ve denetim yapıları kullanır.</li> <br>
+                                    <li>Hesaplama Platformları:
+                                        C, algoritmaları ve veri yapılarını hızla uygular ve programlarda daha hızlı hesaplamaları kolaylaştırır.
+                                         Bu, MATLAB ve Mathematica gibi daha yüksek derecelerde hesaplama gerektiren uygulamalarda C’yi kullanmayı sağlamıştır.</li>
+                                     </ol> <br>
+                                     <img src="imegs/c-dili.png" alt="">
+             
+
+                        
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </ul>
+                     </p>
+
+        
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Programlama @ <span>edu.com</span></p>
+        <div class="social-icons">
+            <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+           
+        </div>
+    </footer>
+    
+
+</body>
+</html>
